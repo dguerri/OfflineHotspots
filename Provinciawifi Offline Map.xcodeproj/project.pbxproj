@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B00A91814C78E8D005F02F7 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B00A91714C78E8D005F02F7 /* settings.png */; };
+		6B00A91A14C78EEB005F02F7 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B00A91914C78EEB005F02F7 /* location.png */; };
+		6B0D193F14C1CC5A00FCA596 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B0D193E14C1CC5A00FCA596 /* user.png */; };
+		6B0D1A3114C1ED5800FCA596 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0D1A3014C1ED5800FCA596 /* SettingsViewController.m */; };
+		6B0D1A3414C1FD8900FCA596 /* UserTrackingMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0D1A3314C1FD8800FCA596 /* UserTrackingMarker.m */; };
+		6B26648416345F5300E523A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B26648316345F5300E523A8 /* Default-568h@2x.png */; };
+		6B2664861634603C00E523A8 /* README.license in Resources */ = {isa = PBXBuildFile; fileRef = 6B2664851634603C00E523A8 /* README.license */; };
+		6B26649A163462EE00E523A8 /* README.rdoc in Resources */ = {isa = PBXBuildFile; fileRef = 6B266499163462EE00E523A8 /* README.rdoc */; };
+		6B2B920A14CA346600319141 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B2B920C14CA346600319141 /* Localizable.strings */; };
+		6B2B921614CA37A900319141 /* AccessPointsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2B921714CA37A900319141 /* AccessPointsManager.m */; };
+		6B2FCF3814D14EE900086399 /* share_twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2FCF3614D14EE900086399 /* share_twitter@2x.png */; };
+		6B2FCF3914D14EE900086399 /* share_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2FCF3714D14EE900086399 /* share_twitter.png */; };
+		6B2FCF3C14D1518E00086399 /* share_facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2FCF3A14D1518E00086399 /* share_facebook@2x.png */; };
+		6B2FCF3D14D1518E00086399 /* share_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B2FCF3B14D1518E00086399 /* share_facebook.png */; };
+		6B41CF9214CA1933009E3098 /* Factory-OfflineHotspots.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6B41CF9114CA1933009E3098 /* Factory-OfflineHotspots.sqlite */; };
+		6B41CF9414CA1FF8009E3098 /* exclamation.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B41CF9314CA1FF8009E3098 /* exclamation.png */; };
+		6B445E9614BF9B8200A168C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B445E9514BF9B8200A168C0 /* UIKit.framework */; };
+		6B445E9814BF9B8200A168C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B445E9714BF9B8200A168C0 /* Foundation.framework */; };
+		6B445E9A14BF9B8200A168C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B445E9914BF9B8200A168C0 /* CoreGraphics.framework */; };
+		6B445EA014BF9B8200A168C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B445E9E14BF9B8200A168C0 /* InfoPlist.strings */; };
+		6B445EA214BF9B8200A168C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B445EA114BF9B8200A168C0 /* main.m */; };
+		6B445EA614BF9B8200A168C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B445EA514BF9B8200A168C0 /* AppDelegate.m */; };
+		6B445EA914BF9B8200A168C0 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B445EA714BF9B8200A168C0 /* MainStoryboard_iPhone.storyboard */; };
+		6B445EAC14BF9B8200A168C0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B445EAA14BF9B8200A168C0 /* MainStoryboard_iPad.storyboard */; };
+		6B445EAF14BF9B8200A168C0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B445EAE14BF9B8200A168C0 /* MapViewController.m */; };
+		6B445ED614BF9CDF00A168C0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B445ED514BF9CDF00A168C0 /* CoreLocation.framework */; };
+		6B445ED814BF9D4000A168C0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B445ED714BF9D4000A168C0 /* libsqlite3.dylib */; };
+		6B445EED14BFA21500A168C0 /* Commerciali-ap-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B445EE914BFA21500A168C0 /* Commerciali-ap-marker.png */; };
+		6B445EEF14BFA21500A168C0 /* default-ap-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B445EEB14BFA21500A168C0 /* default-ap-marker.png */; };
+		6B445F3A14BFA6B700A168C0 /* libMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B445F3414BFA60700A168C0 /* libMapView.a */; };
+		6B445F3C14BFA6F800A168C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B445F3B14BFA6F800A168C0 /* QuartzCore.framework */; };
+		6B747CD914C828FB0050B241 /* ProvinciaDiRomaMap.db in Resources */ = {isa = PBXBuildFile; fileRef = 6B747CD814C828FB0050B241 /* ProvinciaDiRomaMap.db */; };
+		6B747CF014C8433A0050B241 /* callout_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B747CED14C8433A0050B241 /* callout_center.png */; };
+		6B747CF114C8433A0050B241 /* callout_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B747CEE14C8433A0050B241 /* callout_left.png */; };
+		6B747CF214C8433A0050B241 /* callout_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B747CEF14C8433A0050B241 /* callout_right.png */; };
+		6B747CF814C861C00050B241 /* unknown-ap-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B747CF714C861C00050B241 /* unknown-ap-marker.png */; };
+		6B96F72014D2127600C98FD7 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B96F71F14D2127600C98FD7 /* Twitter.framework */; };
+		6BB39C5414C7744200F9C58D /* CommercialiinProvincia-ap-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB39C5314C7744200F9C58D /* CommercialiinProvincia-ap-marker.png */; };
+		6BB785D514D03B4B00C4D41A /* callout_details.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785D414D03B4B00C4D41A /* callout_details.png */; };
+		6BB785D814D0653900C4D41A /* AccessPointDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB785D714D0653900C4D41A /* AccessPointDetailsController.m */; };
+		6BB785DF14D0AFC200C4D41A /* callout_details@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785D914D0AFBF00C4D41A /* callout_details@2x.png */; };
+		6BB785E014D0AFC200C4D41A /* exclamation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785DA14D0AFBF00C4D41A /* exclamation@2x.png */; };
+		6BB785E114D0AFC200C4D41A /* location_and_heading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785DB14D0AFC000C4D41A /* location_and_heading@2x.png */; };
+		6BB785E214D0AFC200C4D41A /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785DC14D0AFC100C4D41A /* settings@2x.png */; };
+		6BB785E414D0AFC200C4D41A /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785DE14D0AFC100C4D41A /* user@2x.png */; };
+		6BB785E914D0B11300C4D41A /* Commerciali-ap-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785E514D0B11200C4D41A /* Commerciali-ap-marker@2x.png */; };
+		6BB785EA14D0B11300C4D41A /* CommercialiinProvincia-ap-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785E614D0B11200C4D41A /* CommercialiinProvincia-ap-marker@2x.png */; };
+		6BB785EB14D0B11300C4D41A /* default-ap-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785E714D0B11300C4D41A /* default-ap-marker@2x.png */; };
+		6BB785EC14D0B11300C4D41A /* unknown-ap-marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BB785E814D0B11300C4D41A /* unknown-ap-marker@2x.png */; };
+		6BBDBCA314C0F2D50025B5D3 /* OfflineHotspots.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BBDBCA114C0F2D50025B5D3 /* OfflineHotspots.xcdatamodeld */; };
+		6BBDBCA614C0F5150025B5D3 /* AccessPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBDBCA514C0F5150025B5D3 /* AccessPoint.m */; };
+		6BD0612014CB1A0300CAE4B7 /* Provinciawifi icon - 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0611D14CB1A0300CAE4B7 /* Provinciawifi icon - 57.png */; };
+		6BD0612114CB1A0300CAE4B7 /* Provinciawifi icon - 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0611E14CB1A0300CAE4B7 /* Provinciawifi icon - 72.png */; };
+		6BD0612214CB1A0300CAE4B7 /* Provinciawifi icon - 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BD0611F14CB1A0300CAE4B7 /* Provinciawifi icon - 114.png */; };
+		6BDAE6FC14C080ED00B795DF /* GeoRSSAccessPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDAE6FB14C080ED00B795DF /* GeoRSSAccessPoint.m */; };
+		6BDAE6FF14C0811A00B795DF /* GeoRSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDAE6FE14C0811A00B795DF /* GeoRSSParser.m */; };
+		6BDAE70114C09E2400B795DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDAE70014C09E2400B795DF /* CoreData.framework */; };
+		6BE17C5D14CF84890054BA85 /* location_and_heading.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BE17C5C14CF84890054BA85 /* location_and_heading.png */; };
+		6BEC89E014C9695000F10E4F /* AccessPointTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEC89DF14C9695000F10E4F /* AccessPointTableViewController.m */; };
+		6BFBD4A614C4B30B0043C25B /* RouteMeMapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBD4A514C4B30A0043C25B /* RouteMeMapDelegate.m */; };
+		6BFBD4AA14C4DBB60043C25B /* AccessPointMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBD4A914C4DBB60043C25B /* AccessPointMarker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B445F3314BFA60700A168C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B445F2314BFA60600A168C0 /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17F31EFA1331050A00122B16;
+			remoteInfo = MapView;
+		};
+		6B445F3514BFA60700A168C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B445F2314BFA60600A168C0 /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17157D87133BBC8300E28941;
+			remoteInfo = MapViewTests;
+		};
+		6B445F3714BFA60700A168C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B445F2314BFA60600A168C0 /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BF3078F0F8AC5C0007014EE;
+			remoteInfo = "Unit Tests";
+		};
+		6B445F3E14BFA93700A168C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B445F2314BFA60600A168C0 /* MapView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C974130E8A19B2007D16AD;
+			remoteInfo = MapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B00A91714C78E8D005F02F7 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		6B00A91914C78EEB005F02F7 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		6B076ADF14CCD5A00086F73F /* Provinciawifi Offline Map - App description - EN.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Provinciawifi Offline Map - App description - EN.rtf"; sourceTree = "<group>"; };
+		6B076AE014CCD5A00086F73F /* Provinciawifi Offline Map - App description - IT.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Provinciawifi Offline Map - App description - IT.rtf"; sourceTree = "<group>"; };
+		6B0D193914C1B3B500FCA596 /* AccessPointsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessPointsManager.h; sourceTree = "<group>"; };
+		6B0D193E14C1CC5A00FCA596 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		6B0D1A2F14C1ED5800FCA596 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		6B0D1A3014C1ED5800FCA596 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		6B0D1A3214C1FD8800FCA596 /* UserTrackingMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTrackingMarker.h; sourceTree = "<group>"; };
+		6B0D1A3314C1FD8800FCA596 /* UserTrackingMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTrackingMarker.m; sourceTree = "<group>"; };
+		6B26648316345F5300E523A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B2664851634603C00E523A8 /* README.license */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.license; sourceTree = "<group>"; };
+		6B266499163462EE00E523A8 /* README.rdoc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.rdoc; sourceTree = "<group>"; };
+		6B2B920214CA2C3600319141 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = it; path = it.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6B2B920314CA2C8600319141 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = it; path = it.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6B2B920B14CA346600319141 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6B2B921414CA364500319141 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6B2B921514CA379A00319141 /* AccessPointTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessPointTableViewController.h; sourceTree = "<group>"; };
+		6B2B921714CA37A900319141 /* AccessPointsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessPointsManager.m; sourceTree = "<group>"; };
+		6B2FCF3614D14EE900086399 /* share_twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_twitter@2x.png"; sourceTree = "<group>"; };
+		6B2FCF3714D14EE900086399 /* share_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_twitter.png; sourceTree = "<group>"; };
+		6B2FCF3A14D1518E00086399 /* share_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_facebook@2x.png"; sourceTree = "<group>"; };
+		6B2FCF3B14D1518E00086399 /* share_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_facebook.png; sourceTree = "<group>"; };
+		6B41CF9114CA1933009E3098 /* Factory-OfflineHotspots.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Factory-OfflineHotspots.sqlite"; sourceTree = "<group>"; };
+		6B41CF9314CA1FF8009E3098 /* exclamation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation.png; sourceTree = "<group>"; };
+		6B445E9114BF9B8200A168C0 /* Provinciawifi Offline Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Provinciawifi Offline Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B445E9514BF9B8200A168C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B445E9714BF9B8200A168C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B445E9914BF9B8200A168C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B445E9D14BF9B8200A168C0 /* OfflineHotspots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OfflineHotspots-Info.plist"; sourceTree = "<group>"; };
+		6B445E9F14BF9B8200A168C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B445EA114BF9B8200A168C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B445EA314BF9B8200A168C0 /* Provinciawifi Offline Map-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Provinciawifi Offline Map-Prefix.pch"; sourceTree = "<group>"; };
+		6B445EA414BF9B8200A168C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B445EA514BF9B8200A168C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B445EA814BF9B8200A168C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6B445EAB14BF9B8200A168C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6B445EAD14BF9B8200A168C0 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6B445EAE14BF9B8200A168C0 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		6B445ED514BF9CDF00A168C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6B445ED714BF9D4000A168C0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6B445EE914BFA21500A168C0 /* Commerciali-ap-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Commerciali-ap-marker.png"; sourceTree = "<group>"; };
+		6B445EEB14BFA21500A168C0 /* default-ap-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-ap-marker.png"; sourceTree = "<group>"; };
+		6B445F2314BFA60600A168C0 /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = MapView/MapView.xcodeproj; sourceTree = "<group>"; };
+		6B445F3B14BFA6F800A168C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6B747CD814C828FB0050B241 /* ProvinciaDiRomaMap.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProvinciaDiRomaMap.db; sourceTree = "<group>"; };
+		6B747CED14C8433A0050B241 /* callout_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callout_center.png; sourceTree = "<group>"; };
+		6B747CEE14C8433A0050B241 /* callout_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callout_left.png; sourceTree = "<group>"; };
+		6B747CEF14C8433A0050B241 /* callout_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callout_right.png; sourceTree = "<group>"; };
+		6B747CF714C861C00050B241 /* unknown-ap-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unknown-ap-marker.png"; sourceTree = "<group>"; };
+		6B8E896914CB367D00B0201D /* TappableRMMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TappableRMMarker.h; sourceTree = "<group>"; };
+		6B96F71F14D2127600C98FD7 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		6BB39C5314C7744200F9C58D /* CommercialiinProvincia-ap-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CommercialiinProvincia-ap-marker.png"; sourceTree = "<group>"; };
+		6BB785D414D03B4B00C4D41A /* callout_details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callout_details.png; sourceTree = "<group>"; };
+		6BB785D614D0653900C4D41A /* AccessPointDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessPointDetailsController.h; sourceTree = "<group>"; };
+		6BB785D714D0653900C4D41A /* AccessPointDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessPointDetailsController.m; sourceTree = "<group>"; };
+		6BB785D914D0AFBF00C4D41A /* callout_details@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "callout_details@2x.png"; sourceTree = "<group>"; };
+		6BB785DA14D0AFBF00C4D41A /* exclamation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exclamation@2x.png"; sourceTree = "<group>"; };
+		6BB785DB14D0AFC000C4D41A /* location_and_heading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location_and_heading@2x.png"; sourceTree = "<group>"; };
+		6BB785DC14D0AFC100C4D41A /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		6BB785DE14D0AFC100C4D41A /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user@2x.png"; sourceTree = "<group>"; };
+		6BB785E514D0B11200C4D41A /* Commerciali-ap-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Commerciali-ap-marker@2x.png"; sourceTree = "<group>"; };
+		6BB785E614D0B11200C4D41A /* CommercialiinProvincia-ap-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CommercialiinProvincia-ap-marker@2x.png"; sourceTree = "<group>"; };
+		6BB785E714D0B11300C4D41A /* default-ap-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-ap-marker@2x.png"; sourceTree = "<group>"; };
+		6BB785E814D0B11300C4D41A /* unknown-ap-marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unknown-ap-marker@2x.png"; sourceTree = "<group>"; };
+		6BBDBCA214C0F2D50025B5D3 /* OfflineHotspots.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OfflineHotspots.xcdatamodel; sourceTree = "<group>"; };
+		6BBDBCA414C0F5150025B5D3 /* AccessPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessPoint.h; sourceTree = "<group>"; };
+		6BBDBCA514C0F5150025B5D3 /* AccessPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessPoint.m; sourceTree = "<group>"; };
+		6BD0611D14CB1A0300CAE4B7 /* Provinciawifi icon - 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Provinciawifi icon - 57.png"; sourceTree = "<group>"; };
+		6BD0611E14CB1A0300CAE4B7 /* Provinciawifi icon - 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Provinciawifi icon - 72.png"; sourceTree = "<group>"; };
+		6BD0611F14CB1A0300CAE4B7 /* Provinciawifi icon - 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Provinciawifi icon - 114.png"; sourceTree = "<group>"; };
+		6BDAE6FA14C080ED00B795DF /* GeoRSSAccessPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoRSSAccessPoint.h; sourceTree = "<group>"; };
+		6BDAE6FB14C080ED00B795DF /* GeoRSSAccessPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoRSSAccessPoint.m; sourceTree = "<group>"; };
+		6BDAE6FD14C0811A00B795DF /* GeoRSSParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoRSSParser.h; sourceTree = "<group>"; };
+		6BDAE6FE14C0811A00B795DF /* GeoRSSParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoRSSParser.m; sourceTree = "<group>"; };
+		6BDAE70014C09E2400B795DF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6BE17C5C14CF84890054BA85 /* location_and_heading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location_and_heading.png; sourceTree = "<group>"; };
+		6BEC89DF14C9695000F10E4F /* AccessPointTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessPointTableViewController.m; sourceTree = "<group>"; };
+		6BFBD4A414C4B30A0043C25B /* RouteMeMapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteMeMapDelegate.h; sourceTree = "<group>"; };
+		6BFBD4A514C4B30A0043C25B /* RouteMeMapDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteMeMapDelegate.m; sourceTree = "<group>"; };
+		6BFBD4A814C4DBB60043C25B /* AccessPointMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessPointMarker.h; sourceTree = "<group>"; };
+		6BFBD4A914C4DBB60043C25B /* AccessPointMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessPointMarker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B445E8E14BF9B8200A168C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B96F72014D2127600C98FD7 /* Twitter.framework in Frameworks */,
+				6BDAE70114C09E2400B795DF /* CoreData.framework in Frameworks */,
+				6B445F3C14BFA6F800A168C0 /* QuartzCore.framework in Frameworks */,
+				6B445F3A14BFA6B700A168C0 /* libMapView.a in Frameworks */,
+				6B445ED814BF9D4000A168C0 /* libsqlite3.dylib in Frameworks */,
+				6B445ED614BF9CDF00A168C0 /* CoreLocation.framework in Frameworks */,
+				6B445E9614BF9B8200A168C0 /* UIKit.framework in Frameworks */,
+				6B445E9814BF9B8200A168C0 /* Foundation.framework in Frameworks */,
+				6B445E9A14BF9B8200A168C0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B03CDED14CC2980008EF805 /* Resources-sources */ = {
+			isa = PBXGroup;
+			children = (
+				6B076ADF14CCD5A00086F73F /* Provinciawifi Offline Map - App description - EN.rtf */,
+				6B076AE014CCD5A00086F73F /* Provinciawifi Offline Map - App description - IT.rtf */,
+			);
+			name = "Resources-sources";
+			sourceTree = "<group>";
+		};
+		6B2B920614CA337800319141 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6B445EA414BF9B8200A168C0 /* AppDelegate.h */,
+				6B445EA514BF9B8200A168C0 /* AppDelegate.m */,
+				6B8E896914CB367D00B0201D /* TappableRMMarker.h */,
+				6BBDBCA414C0F5150025B5D3 /* AccessPoint.h */,
+				6BBDBCA514C0F5150025B5D3 /* AccessPoint.m */,
+				6BFBD4A814C4DBB60043C25B /* AccessPointMarker.h */,
+				6BFBD4A914C4DBB60043C25B /* AccessPointMarker.m */,
+				6B0D193914C1B3B500FCA596 /* AccessPointsManager.h */,
+				6B2B921714CA37A900319141 /* AccessPointsManager.m */,
+				6B2B921514CA379A00319141 /* AccessPointTableViewController.h */,
+				6BEC89DF14C9695000F10E4F /* AccessPointTableViewController.m */,
+				6BDAE6FA14C080ED00B795DF /* GeoRSSAccessPoint.h */,
+				6BDAE6FB14C080ED00B795DF /* GeoRSSAccessPoint.m */,
+				6BDAE6FD14C0811A00B795DF /* GeoRSSParser.h */,
+				6BDAE6FE14C0811A00B795DF /* GeoRSSParser.m */,
+				6B445EAD14BF9B8200A168C0 /* MapViewController.h */,
+				6B445EAE14BF9B8200A168C0 /* MapViewController.m */,
+				6BFBD4A414C4B30A0043C25B /* RouteMeMapDelegate.h */,
+				6BFBD4A514C4B30A0043C25B /* RouteMeMapDelegate.m */,
+				6B0D1A2F14C1ED5800FCA596 /* SettingsViewController.h */,
+				6B0D1A3014C1ED5800FCA596 /* SettingsViewController.m */,
+				6B0D1A3214C1FD8800FCA596 /* UserTrackingMarker.h */,
+				6B0D1A3314C1FD8800FCA596 /* UserTrackingMarker.m */,
+				6BB785D614D0653900C4D41A /* AccessPointDetailsController.h */,
+				6BB785D714D0653900C4D41A /* AccessPointDetailsController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6B2B920714CA338C00319141 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				6B445EAA14BF9B8200A168C0 /* MainStoryboard_iPad.storyboard */,
+				6B445EA714BF9B8200A168C0 /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		6B445E8614BF9B8200A168C0 = {
+			isa = PBXGroup;
+			children = (
+				6B266499163462EE00E523A8 /* README.rdoc */,
+				6B2664851634603C00E523A8 /* README.license */,
+				6B26648316345F5300E523A8 /* Default-568h@2x.png */,
+				6B03CDED14CC2980008EF805 /* Resources-sources */,
+				6BBDBC9F14C0ECBA0025B5D3 /* Libraries */,
+				6BBDBC0114C0E58C0025B5D3 /* Models */,
+				6B445ED914BF9D7A00A168C0 /* Resources */,
+				6B445E9B14BF9B8200A168C0 /* OfflineHotspots */,
+				6B445E9414BF9B8200A168C0 /* Frameworks */,
+				6B445E9214BF9B8200A168C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B445E9214BF9B8200A168C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B445E9114BF9B8200A168C0 /* Provinciawifi Offline Map.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B445E9414BF9B8200A168C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B96F71F14D2127600C98FD7 /* Twitter.framework */,
+				6BDAE70014C09E2400B795DF /* CoreData.framework */,
+				6B445F3B14BFA6F800A168C0 /* QuartzCore.framework */,
+				6B445ED714BF9D4000A168C0 /* libsqlite3.dylib */,
+				6B445ED514BF9CDF00A168C0 /* CoreLocation.framework */,
+				6B445E9514BF9B8200A168C0 /* UIKit.framework */,
+				6B445E9714BF9B8200A168C0 /* Foundation.framework */,
+				6B445E9914BF9B8200A168C0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B445E9B14BF9B8200A168C0 /* OfflineHotspots */ = {
+			isa = PBXGroup;
+			children = (
+				6B2B920714CA338C00319141 /* StoryBoards */,
+				6B2B920614CA337800319141 /* Classes */,
+				6B445E9C14BF9B8200A168C0 /* Supporting Files */,
+			);
+			path = OfflineHotspots;
+			sourceTree = "<group>";
+		};
+		6B445E9C14BF9B8200A168C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B445E9D14BF9B8200A168C0 /* OfflineHotspots-Info.plist */,
+				6B445E9E14BF9B8200A168C0 /* InfoPlist.strings */,
+				6B445EA114BF9B8200A168C0 /* main.m */,
+				6B445EA314BF9B8200A168C0 /* Provinciawifi Offline Map-Prefix.pch */,
+				6B2B920C14CA346600319141 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B445ED914BF9D7A00A168C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B2FCF3A14D1518E00086399 /* share_facebook@2x.png */,
+				6B2FCF3B14D1518E00086399 /* share_facebook.png */,
+				6B747CED14C8433A0050B241 /* callout_center.png */,
+				6BB785D414D03B4B00C4D41A /* callout_details.png */,
+				6BB785D914D0AFBF00C4D41A /* callout_details@2x.png */,
+				6B747CEE14C8433A0050B241 /* callout_left.png */,
+				6B747CEF14C8433A0050B241 /* callout_right.png */,
+				6B445EE914BFA21500A168C0 /* Commerciali-ap-marker.png */,
+				6BB785E514D0B11200C4D41A /* Commerciali-ap-marker@2x.png */,
+				6BB39C5314C7744200F9C58D /* CommercialiinProvincia-ap-marker.png */,
+				6BB785E614D0B11200C4D41A /* CommercialiinProvincia-ap-marker@2x.png */,
+				6B445EEB14BFA21500A168C0 /* default-ap-marker.png */,
+				6BB785E714D0B11300C4D41A /* default-ap-marker@2x.png */,
+				6B41CF9314CA1FF8009E3098 /* exclamation.png */,
+				6BB785DA14D0AFBF00C4D41A /* exclamation@2x.png */,
+				6B41CF9114CA1933009E3098 /* Factory-OfflineHotspots.sqlite */,
+				6B00A91914C78EEB005F02F7 /* location.png */,
+				6BE17C5C14CF84890054BA85 /* location_and_heading.png */,
+				6BB785DB14D0AFC000C4D41A /* location_and_heading@2x.png */,
+				6B747CD814C828FB0050B241 /* ProvinciaDiRomaMap.db */,
+				6BD0611F14CB1A0300CAE4B7 /* Provinciawifi icon - 114.png */,
+				6BD0611D14CB1A0300CAE4B7 /* Provinciawifi icon - 57.png */,
+				6BD0611E14CB1A0300CAE4B7 /* Provinciawifi icon - 72.png */,
+				6B00A91714C78E8D005F02F7 /* settings.png */,
+				6BB785DC14D0AFC100C4D41A /* settings@2x.png */,
+				6B2FCF3714D14EE900086399 /* share_twitter.png */,
+				6B2FCF3614D14EE900086399 /* share_twitter@2x.png */,
+				6B747CF714C861C00050B241 /* unknown-ap-marker.png */,
+				6BB785E814D0B11300C4D41A /* unknown-ap-marker@2x.png */,
+				6B0D193E14C1CC5A00FCA596 /* user.png */,
+				6BB785DE14D0AFC100C4D41A /* user@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6B445F2414BFA60600A168C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B445F3414BFA60700A168C0 /* libMapView.a */,
+				6B445F3614BFA60700A168C0 /* MapViewTests.octest */,
+				6B445F3814BFA60700A168C0 /* RM Unit Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BBDBC0114C0E58C0025B5D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BBDBCA114C0F2D50025B5D3 /* OfflineHotspots.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6BBDBC9F14C0ECBA0025B5D3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6B445F2314BFA60600A168C0 /* MapView.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B445E9014BF9B8200A168C0 /* Provinciawifi Offline Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B445EC714BF9B8200A168C0 /* Build configuration list for PBXNativeTarget "Provinciawifi Offline Map" */;
+			buildPhases = (
+				6B445E8D14BF9B8200A168C0 /* Sources */,
+				6B445E8E14BF9B8200A168C0 /* Frameworks */,
+				6B445E8F14BF9B8200A168C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B445F3F14BFA93700A168C0 /* PBXTargetDependency */,
+			);
+			name = "Provinciawifi Offline Map";
+			productName = OfflineHotspots;
+			productReference = 6B445E9114BF9B8200A168C0 /* Provinciawifi Offline Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B445E8814BF9B8200A168C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6B445E8B14BF9B8200A168C0 /* Build configuration list for PBXProject "Provinciawifi Offline Map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				it,
+			);
+			mainGroup = 6B445E8614BF9B8200A168C0;
+			productRefGroup = 6B445E9214BF9B8200A168C0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6B445F2414BFA60600A168C0 /* Products */;
+					ProjectRef = 6B445F2314BFA60600A168C0 /* MapView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6B445E9014BF9B8200A168C0 /* Provinciawifi Offline Map */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6B445F3414BFA60700A168C0 /* libMapView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMapView.a;
+			remoteRef = 6B445F3314BFA60700A168C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6B445F3614BFA60700A168C0 /* MapViewTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MapViewTests.octest;
+			remoteRef = 6B445F3514BFA60700A168C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6B445F3814BFA60700A168C0 /* RM Unit Tests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "RM Unit Tests.app";
+			remoteRef = 6B445F3714BFA60700A168C0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B445E8F14BF9B8200A168C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B445EA014BF9B8200A168C0 /* InfoPlist.strings in Resources */,
+				6B445EA914BF9B8200A168C0 /* MainStoryboard_iPhone.storyboard in Resources */,
+				6B445EAC14BF9B8200A168C0 /* MainStoryboard_iPad.storyboard in Resources */,
+				6B445EED14BFA21500A168C0 /* Commerciali-ap-marker.png in Resources */,
+				6B445EEF14BFA21500A168C0 /* default-ap-marker.png in Resources */,
+				6B0D193F14C1CC5A00FCA596 /* user.png in Resources */,
+				6BB39C5414C7744200F9C58D /* CommercialiinProvincia-ap-marker.png in Resources */,
+				6B00A91814C78E8D005F02F7 /* settings.png in Resources */,
+				6B00A91A14C78EEB005F02F7 /* location.png in Resources */,
+				6B747CD914C828FB0050B241 /* ProvinciaDiRomaMap.db in Resources */,
+				6B747CF014C8433A0050B241 /* callout_center.png in Resources */,
+				6B747CF114C8433A0050B241 /* callout_left.png in Resources */,
+				6B747CF214C8433A0050B241 /* callout_right.png in Resources */,
+				6B747CF814C861C00050B241 /* unknown-ap-marker.png in Resources */,
+				6B41CF9214CA1933009E3098 /* Factory-OfflineHotspots.sqlite in Resources */,
+				6B41CF9414CA1FF8009E3098 /* exclamation.png in Resources */,
+				6B2B920A14CA346600319141 /* Localizable.strings in Resources */,
+				6BD0612014CB1A0300CAE4B7 /* Provinciawifi icon - 57.png in Resources */,
+				6BD0612114CB1A0300CAE4B7 /* Provinciawifi icon - 72.png in Resources */,
+				6BD0612214CB1A0300CAE4B7 /* Provinciawifi icon - 114.png in Resources */,
+				6BE17C5D14CF84890054BA85 /* location_and_heading.png in Resources */,
+				6BB785D514D03B4B00C4D41A /* callout_details.png in Resources */,
+				6BB785DF14D0AFC200C4D41A /* callout_details@2x.png in Resources */,
+				6BB785E014D0AFC200C4D41A /* exclamation@2x.png in Resources */,
+				6BB785E114D0AFC200C4D41A /* location_and_heading@2x.png in Resources */,
+				6BB785E214D0AFC200C4D41A /* settings@2x.png in Resources */,
+				6BB785E414D0AFC200C4D41A /* user@2x.png in Resources */,
+				6BB785E914D0B11300C4D41A /* Commerciali-ap-marker@2x.png in Resources */,
+				6BB785EA14D0B11300C4D41A /* CommercialiinProvincia-ap-marker@2x.png in Resources */,
+				6BB785EB14D0B11300C4D41A /* default-ap-marker@2x.png in Resources */,
+				6BB785EC14D0B11300C4D41A /* unknown-ap-marker@2x.png in Resources */,
+				6B2FCF3814D14EE900086399 /* share_twitter@2x.png in Resources */,
+				6B2FCF3914D14EE900086399 /* share_twitter.png in Resources */,
+				6B2FCF3C14D1518E00086399 /* share_facebook@2x.png in Resources */,
+				6B2FCF3D14D1518E00086399 /* share_facebook.png in Resources */,
+				6B26648416345F5300E523A8 /* Default-568h@2x.png in Resources */,
+				6B2664861634603C00E523A8 /* README.license in Resources */,
+				6B26649A163462EE00E523A8 /* README.rdoc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B445E8D14BF9B8200A168C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B445EA214BF9B8200A168C0 /* main.m in Sources */,
+				6B445EA614BF9B8200A168C0 /* AppDelegate.m in Sources */,
+				6B445EAF14BF9B8200A168C0 /* MapViewController.m in Sources */,
+				6BDAE6FC14C080ED00B795DF /* GeoRSSAccessPoint.m in Sources */,
+				6BDAE6FF14C0811A00B795DF /* GeoRSSParser.m in Sources */,
+				6BBDBCA314C0F2D50025B5D3 /* OfflineHotspots.xcdatamodeld in Sources */,
+				6BBDBCA614C0F5150025B5D3 /* AccessPoint.m in Sources */,
+				6B0D1A3114C1ED5800FCA596 /* SettingsViewController.m in Sources */,
+				6B0D1A3414C1FD8900FCA596 /* UserTrackingMarker.m in Sources */,
+				6BFBD4A614C4B30B0043C25B /* RouteMeMapDelegate.m in Sources */,
+				6BFBD4AA14C4DBB60043C25B /* AccessPointMarker.m in Sources */,
+				6B2B921614CA37A900319141 /* AccessPointsManager.m in Sources */,
+				6BEC89E014C9695000F10E4F /* AccessPointTableViewController.m in Sources */,
+				6BB785D814D0653900C4D41A /* AccessPointDetailsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B445F3F14BFA93700A168C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapView;
+			targetProxy = 6B445F3E14BFA93700A168C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B2B920C14CA346600319141 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2B920B14CA346600319141 /* en */,
+				6B2B921414CA364500319141 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6B445E9E14BF9B8200A168C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B445E9F14BF9B8200A168C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B445EA714BF9B8200A168C0 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B445EA814BF9B8200A168C0 /* en */,
+				6B2B920314CA2C8600319141 /* it */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6B445EAA14BF9B8200A168C0 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B445EAB14BF9B8200A168C0 /* en */,
+				6B2B920214CA2C3600319141 /* it */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B445EC514BF9B8200A168C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "MapView/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		6B445EC614BF9B8200A168C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_RESOURCE_RULES_PATH[sdk=*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "MapView/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B445EC814BF9B8200A168C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineHotspots/Provinciawifi Offline Map-Prefix.pch";
+				INFOPLIST_FILE = "OfflineHotspots/OfflineHotspots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B445EC914BF9B8200A168C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Davide Guerri";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Davide Guerri";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OfflineHotspots/Provinciawifi Offline Map-Prefix.pch";
+				INFOPLIST_FILE = "OfflineHotspots/OfflineHotspots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "537827D6-4720-4629-B4D3-9FB6141C89EF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "537827D6-4720-4629-B4D3-9FB6141C89EF";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B445E8B14BF9B8200A168C0 /* Build configuration list for PBXProject "Provinciawifi Offline Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B445EC514BF9B8200A168C0 /* Debug */,
+				6B445EC614BF9B8200A168C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B445EC714BF9B8200A168C0 /* Build configuration list for PBXNativeTarget "Provinciawifi Offline Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B445EC814BF9B8200A168C0 /* Debug */,
+				6B445EC914BF9B8200A168C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BBDBCA114C0F2D50025B5D3 /* OfflineHotspots.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BBDBCA214C0F2D50025B5D3 /* OfflineHotspots.xcdatamodel */,
+			);
+			currentVersion = 6BBDBCA214C0F2D50025B5D3 /* OfflineHotspots.xcdatamodel */;
+			path = OfflineHotspots.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B445E8814BF9B8200A168C0 /* Project object */;
+}

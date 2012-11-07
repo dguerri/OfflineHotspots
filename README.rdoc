@@ -1,0 +1,44 @@
+= OfflineHotspots / Provinciawifi Offline Map
+
+Porta sempre con te la lista dei punti di accesso di Provinciawifi, la rete Wi-Fi pubblica e gratuita più grande d'Europa!
+
+Non è richiesta connettività Internet per usare quest'applicazione.
+* Trova i punti di accesso più vicini a te mediante rilevazione della tua posizione (geolocalizzazione) su una mappa di Roma e provincia che non richiede una connessione ad Internet.
+* Consulta la lista degli oltre 900 hotspot suddivisi per Comune e localizzali su mappa.
+* Se è disponibile una connessione ad Internet, l'applicazione permette l'aggiornamento della lista degli hotspot direttamente dai server del servizio Wi-Fi: potrai così avere sempre la lista aggiornata degli hotspot di Provinciawifi!
+
+Provinciawifi Offline Map permette la consultazione della lista di hotspot del famoso servizio offerto dalla Provincia di Roma in forma tabellare o tramite una mappa offline che include tutti i Comuni della provincia di Roma. 
+
+== Note:
+
+Attenzione: richiede iOS 5 o superiore.
+
+L'applicazione Provinciawifi Offline Map non è stata commissionata, sponsorizzata o approvata dai proprietari del servizio Wi-Fi cui si rivolge. 
+
+Tutti i dati descrittivi, di disponibilità e quelli relativi alla posizione degli hotspot sono ottenuti da sorgenti, pubblicamente disponibili, mantenute ed aggiornate dai proprietari del servizio. L'autore del presente software non è pertanto responsabile della loro veridicità o completezza.
+
+Si ringrazia la Provincia di Roma per aver concesso l'utilizzo delle icone degli hotspot e per aver reso pubblici i dati di posizione di tutti gli hotspot della rete nel pieno rispetto della filosofia "open-data".
+
+= OfflineHotspots / Provinciawifi Offline Map
+
+Bring with you the hotspot list of Provinciawifi: the European widest free Wi-Fi service!
+
+No Internet connection is required by this application.
+* Find access points closest to you with geolocalization on an offline map of the entire territory of the province of Rome.
+* Browse the list of more that 900 hotspots divided in Municipality.
+* If an Internet connection is available it's possible to update the hotspot list: you'll always have an updated list of Provinciawifi's access points!
+
+Provinciawifi Offline Map contains the hotspot list of the famous free Wi-Fi service provided by the Province of Rome. This application permits to browse hotspot list in tabular form or to navigate an offline map.
+
+== Notes:
+
+This app requires iOS 5 or later.
+
+Provinciawifi Offline Map was not commissioned and is neither sponsored nor approved by the Wi-Fi service owners.
+
+All descriptive and positional data for the hotspots are obtained from publicly available sources maintained by the owners of the Wi-Fi service. The author cannot be liable for the truthfulness or the completeness of these data.
+
+Thanks to the Province of Rome for the kind permission to use the hotspot icons.
+
+== Copyright
+(c) 2012 Davide Guerri <davide.guerri@gmail.com>

@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  OfflineHotspots
+
+  Created by Davide Guerri on 21/01/12.
+  Copyright (c) 2012 __Davide Guerri__. All rights reserved.
+*/
+
+"Yes" = "Yes";
+"No" = "No";
+"Ok" = "Ok";
+"Operation completed" = "Operation completed";
+"Error retry later" = "An error occurred while processing the hotspot list. Please try again later.";
+"Error" = "Error";
+"Warning" = "Warning";
+"New hotspot list download. Continue?" = "A new hotspot list will be downloaded. This could take some time to complete.\nContinue?";
+"Reset to factory default. Continue?" = "This operation reset the hotspot list to the factory default.\nContinue?";
+"%u hotspot loaded" = "%u hotspots loaded";
+"Share on %@" = "Share on %@";
+"#ProvinciawifiOfflineMap's helped me discover hotspot '%@' in %@ - %@!" = "#ProvinciawifiOfflineMap's helped me discover hotspot '%@' in %@ - %@!";
+"Tweet Status" = "Tweet status";
+"Tweet sent" = "Tweet sent";
